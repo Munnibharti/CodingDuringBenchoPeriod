@@ -10,10 +10,10 @@ namespace CheckNumberGreater
     {
         static void Main(string[] args)
         {
-            int year;
+            int years;
             Console.WriteLine("Enter Year");
-            year = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(year % 4 == 0 ? "This year is leap year" : "This year is not leap year");
+            years = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(years % 4 == 0 ? "This year is leap year" : "This year is not leap year");
             Console.ReadLine();
 
             
